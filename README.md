@@ -1,5 +1,7 @@
 # Introduction
 
+Take me to the [code and Jupyter Notebook](https://github.com/AMoazeni/Machine-Learning-Image-Recognition/blob/master/Jupyter%20Notebook/ML%20-%20Image%20Recognition.ipynb)!
+
 
 This article explores a Machine Learning algorithm called Convolution Neural Network (CNN), it's a common Deep Learning technique used for image recognition and classification.
 
