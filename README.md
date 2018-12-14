@@ -1,6 +1,7 @@
 # Introduction
 
-Take me to the [code and Jupyter Notebook](https://github.com/AMoazeni/Machine-Learning-Image-Recognition/blob/master/Jupyter%20Notebook/ML%20-%20Image%20Recognition.ipynb)!
+
+Take me to the [code and Jupyter Notebook](https://github.com/AMoazeni/Machine-Learning-Image-Recognition/blob/master/Jupyter%20Notebook/ML%20-%20Image%20Recognition.ipynb) for Image Recognition!
 
 
 This article explores a Machine Learning algorithm called Convolution Neural Network (CNN), it's a common Deep Learning technique used for image recognition and classification.
@@ -37,7 +38,7 @@ Convolution is a function derived from two other functions through an integratio
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/01%20-%20Convolution%20Equation.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/01%20-%20Convolution%20Equation.png">
 
 
 
@@ -45,15 +46,15 @@ For image recognition, we convolve the input image with Feature Detectors (also 
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/02%20-%20CNN%20Example.png" width="500">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/02%20-%20CNN%20Example.png" width="500">
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/03%20-%20CNN%20Feature%20Map.png" width="500">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/03%20-%20CNN%20Feature%20Map.png" width="500">
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/04%20-%20CNN%20Multi%20Feature%20Map.png" width="500">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/04%20-%20CNN%20Multi%20Feature%20Map.png" width="500">
 
 
 
@@ -61,7 +62,7 @@ This [Image Convolution Guide](https://docs.gimp.org/en/plug-in-convmatrix.html)
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/05%20-%20Edge%20Detect%20Filter.png" width="500">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/05%20-%20Edge%20Detect%20Filter.png" width="500">
 
 
 
@@ -73,21 +74,21 @@ This [Image Convolution Guide](https://docs.gimp.org/en/plug-in-convmatrix.html)
 Rectifier Functions are applied to Convolution Neural Networks to increases non-linearity (breaks up linearity). This is an important step for image recognition with CNNs. Images are usually non-linear due to sharp transition of pixels, different colors, etc. ReLU functions help amplify the non-linearity of images so the ML model has an easier time finding patterns. 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/06%20-%20ReLU%20Layer.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/06%20-%20ReLU%20Layer.png">
 
 
 
 ### Before ReLU
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/07%20-%20Before%20ReLU.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/07%20-%20Before%20ReLU.png">
 
 
 
 ###  After ReLU
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/08%20-%20After%20ReLU.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/08%20-%20After%20ReLU.png">
 
 
 
@@ -95,7 +96,7 @@ In the above example, the ReLU operation removed the Black Pixels so there's les
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/09%20-%20Modified%20Rectifier.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/09%20-%20Modified%20Rectifier.png">
 
 
 
@@ -108,7 +109,7 @@ Max Pooling finds the largest value of small grids in the Feature Map, this crea
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/10%20-%20Max%20Pooling.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/10%20-%20Max%20Pooling.png">
 
 
 
@@ -121,11 +122,11 @@ Flattening puts values of the pooled Feature Map matrix into a 1-D vector. This 
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/11%20-%20Flattening.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/11%20-%20Flattening.png" width="400">
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/12%20-%20Flattening%202.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/12%20-%20Flattening%202.png" width="400">
 
 
 
@@ -138,7 +139,7 @@ This is when the output of a Convolution Neural Network is flattened and fed thr
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/13%20-%20Full%20Connection.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/13%20-%20Full%20Connection.png" width="400">
 
 
 
@@ -146,7 +147,7 @@ The process of CNN back-propagation adjusts weights of neurons, while adjusting 
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/14%20-%20CNN%20Backprop.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/14%20-%20CNN%20Backprop.png" width="400">
 
 
 
@@ -154,7 +155,7 @@ When it's time for the CNN to make a decision between Cat or Dog, the final laye
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/15%20-%20CNN%20Weighted%20Votes.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/15%20-%20CNN%20Weighted%20Votes.png">
 
 
 
@@ -162,7 +163,7 @@ Here is a summary of every step of a CNN, don't forget about the Rectifier Funct
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/16%20-%20CNN%20Full.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/16%20-%20CNN%20Full.png">
 
 
 
@@ -184,26 +185,26 @@ The Softmax function shown below is used to make sure that the probabilities of 
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/18%20-%20Softmax%20Function.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/18%20-%20Softmax%20Function.png">
 
 
 
 We had previously used the Mean Squared Error (MSE) Cost Function. For CNNs, it's better to use the Cross-Entropy Function as your Cost Function. We use Cross-Entropy as a Loss Function because it has a 'Log' term which helps amplify small Errors and better guide gradient descent.
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/17%20-%20Log%20Loss%20Function.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/17%20-%20Log%20Loss%20Function.png">
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/19%20-%20Cross%20Entropy%20Function.png" width="200">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/19%20-%20Cross%20Entropy%20Function.png" width="200">
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/20%20-%20Cross%20Entropy%20Plug%20In.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/20%20-%20Cross%20Entropy%20Plug%20In.png" width="400">
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Images/21%20-%20Error%20Comparison.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Jupyter%20Notebook/Images/21%20-%20Error%20Comparison.png">
 
 
 
