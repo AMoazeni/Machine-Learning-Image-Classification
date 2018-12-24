@@ -8,9 +8,9 @@ This article explores a Machine Learning algorithm called Convolution Neural Net
 
 <br></br>
 <div align="center">
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Data/single_prediction/cat_or_dog_1.jpg" width=20% alt="Dog">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Data/single_prediction/cat_or_dog_1.jpg" height=300 alt="Dog">
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Data/single_prediction/cat_or_dog_2.jpg" width=20% alt="Cat">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Image-Recognition/master/Data/single_prediction/cat_or_dog_2.jpg" height=300 alt="Cat">
 </div>
 
 
